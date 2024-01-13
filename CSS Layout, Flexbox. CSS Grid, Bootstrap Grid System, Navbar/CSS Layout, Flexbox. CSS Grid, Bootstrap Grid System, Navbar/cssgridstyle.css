@@ -1,0 +1,45 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: -ms-grid;
+    display: grid;
+    gap: 3px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+img {
+    margin: 3px;
+    width: 360px;
+    height: 360px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}

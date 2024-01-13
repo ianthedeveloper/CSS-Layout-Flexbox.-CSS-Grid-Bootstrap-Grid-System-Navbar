@@ -1,0 +1,78 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 8%;
+    background-color: darkgoldenrod;
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+.links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 22px;
+    gap: 15px;
+
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+/* .h1,.logo{font-weight:700}*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer}body,html{width:100%;height:100%}.h1{font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;font-size:45px;text-align:center}.navbar{width:100%;height:8%;background-color:#b8860b;color:#000;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 auto}.logo{font-family:Cambria,Cochin,Georgia,Times,'Times New Roman',serif;font-size:34px}.links{display:-webkit-box;display:-ms-flexbox;display:flex;font-size:22px;gap:15px}.links li{list-style:none;display:inline-block}li a{text-decoration:none} */
+
+
