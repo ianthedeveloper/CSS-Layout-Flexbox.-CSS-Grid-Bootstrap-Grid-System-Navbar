@@ -13,12 +13,13 @@ body {
 
 }
 
-.container {
+.container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    
 }
 .zone {
     padding:30px 50px;
@@ -74,9 +75,10 @@ body {
     text-decoration: none;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: bold;
 }
+
 
 .green .links {
     font-size: 20px;
@@ -87,8 +89,15 @@ body {
     gap: 20px;
 }
 
+
 .green li:hover {
-    color: #60abf8;
+    color: #0b0b0c;
+
+}
+
+.stretch{
+    position: fixed;
+    top: 0;
 
 }
 
@@ -106,18 +115,20 @@ body {
 
     width: 100%;
     /* max-width: 1440px; */
-    height: 600px;
-}
+    height: 90vh;
 
-.red .p1 {
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
+
 
 /***********************************************************************
  *  Yellow Background
@@ -136,19 +147,19 @@ body {
     /* W3C */
 
     width: 100%;
-    height: 40px;
-
-}
-
-.yellow .p2 {
+    height: 75px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
 }
+
 /***********************************************************************
  *  Blue Background
  **********************************************************************/
@@ -160,22 +171,54 @@ body {
     background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
     background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
-width: 100%;
+    width: 100%;
+    
 
 }
 
-.zone .blue .container {
+.blue .container {
     display: -ms-grid;
     display: grid;
-    margin: 0 auto;
+    gap: 18px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-img {
-    width: 300px;
-    height: 300px;
-    margin: 20px;
+.box img {
+    width: 100%;
+    height: 100%;
     /* object-fit: cover; */
     /* object-position: center; */
+
+}
+
+.box{
+    width: 100%;
+    /* height: 100px; */
+    background-color: #0b0b0c;
+    padding: 103px;
+    margin: 33px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .green .logo {
+        font-size: 18px;
+        padding: 0px;
+        margin: 0;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    .green .links {
+        font-size: 11px;
+        padding: 0px;
+        margin: 0;
+
+    }
+
 
 }
